@@ -21,6 +21,28 @@
 
 .tm-nav-item:hover{
     background-color: lightskyblue;
-
 }
 
+.tm-banner {
+    background: linear-gradient(to right, lightskyblue, burlywood );
+}
+.tm-banner-inner {
+    background: white;
+    text-shadow: 4px 4px 3px #333;
+}
+
+.flex-item  {
+    float: right;
+}
+
+.tm-section-item {
+    align: left;
+}
+
+.text::after {
+    content:"New";
+    color: red;
+    vertical-align: super;
+    font-size: small;
+    font-weight: bold;
+}
