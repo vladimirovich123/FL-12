@@ -26,14 +26,19 @@
 
 @keyframes slide {
     from {
-        margin-left: 100%;
-        width: 300%;
+        margin-left: 200px;
     }
 
     to {
-        margin-left: 0%;
-        width: 100%;
+        top: 0;
     }
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    border-top: 45px solid lightskyblue;
+    border-right: 45px solid transparent;
 }
 
 .text {
@@ -56,11 +61,7 @@
     text-decoration: none;
 }
 
-/*a:hover {*/
-/*    text-decoration: none;*/
-/*}*/
-
-.c a:hover::before {
+.padding-medium a:hover::before {
     content: ">";
     font-weight: bold;
 }
@@ -80,17 +81,6 @@ ol {
 
 .tm-section-title {
     text-align: center;
-}
-
-#tmCarousel::after {
-    content:"";
-    position:absolute;
-    top:0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-top: 50px solid lightskyblue;
-    border-right: 50px solid transparent;
 }
 
 .tm-content-box {
@@ -147,6 +137,20 @@ p.tm-section-description {
     box-shadow: none;
 }
 
+.tm-team-description-container {
+    margin-left: 0;
+}
+
+.blocks p.tm-section-description:last-child {
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-style: italic;
+}
+
+.padding-medium h2 {
+    alignment: center;
+    color: lightskyblue;
+}
 
 
 
