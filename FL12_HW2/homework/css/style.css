@@ -162,6 +162,14 @@ p.tm-section-description {
     background-color: lightblue;
 }
 
+#contact button {
+    background-color: white;
+    border: 1px solid lightskyblue;
+    color: lightskyblue;
+    float: right;
+    padding: 15px 25px;
+}
+
 
 
 
